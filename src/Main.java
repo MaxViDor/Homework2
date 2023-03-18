@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         task1 ();
@@ -85,8 +83,8 @@ public class Main {
         System.out.println("Всего работников в компании - " + numberOfPersons + " человек");
         var newNumberOfPerson = numberOfPersons + 94;
         var newTotalWorkingTime = newNumberOfPerson * workingTimePerson;
-        System.out.println("Если в компании работает " +newNumberOfPerson+ " человек, то всего " +newTotalWorkingTime+
-                " часов может быть поделено между сотрудниками" );
+        System.out.println("Если в компании работает " + newNumberOfPerson + " человек, то всего " + newTotalWorkingTime +
+                " часов может быть поделено между сотрудниками");
 
     }
 
